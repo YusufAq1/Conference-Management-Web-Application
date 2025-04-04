@@ -1,0 +1,123 @@
+:root {
+    --dark-blue: #3D52A0;
+    --medium-blue: #7091E6;
+    --light-blue: #8697C4;
+    --soft-blue: #ADBBDA;
+    --pale-blue: #EDE8F5;
+}
+
+body, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: var(--pale-blue);
+    color: var(--dark-blue)
+}
+
+.title{
+    text-align: center;
+    padding: 250px 20px;
+}
+
+.title h1{
+    font-size: 48px;
+    color: var(--dark-blue);
+}
+
+.title h2{
+    font-size: 24px;
+    color: var(--medium-blue);
+}
+
+.navBar{
+    background-color: var(--dark-blue);
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+
+.navBar a{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.navBar a:hover{
+    background: var(--medium-blue);
+    font-weight: bold;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center;
+}
+
+.subcommitteeTitle{
+    margin-bottom: 20px;
+}
+
+.subcommitteeForm {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.selectcommittee {
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid var(--medium-blue);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.submitbutton{
+    background: var(--medium-blue);
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.submitbutton:hover{
+    background: var(--dark-blue);
+    font-weight: bold;
+}
+
+table, th, td{
+    padding: 10px;
+    border: 2px solid var(--dark-blue);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    background-color: var(--medium-blue);
+    color: white;
+}
+
